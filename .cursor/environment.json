@@ -1,0 +1,4 @@
+{
+  "name": "Agentic OS",
+  "install": "if [ -f package-lock.json ]; then npm ci; elif [ -f package.json ]; then npm install; else echo 'No package.json yet; skipping dependency install (repository is still a workflow-only skeleton).'; fi"
+}
